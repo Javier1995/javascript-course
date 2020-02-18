@@ -16,6 +16,8 @@ Person.prototype.calculateAge = function(){
     console.log(2020 - this.yearOfBirth);
 }
 
+Person.prototype.lastName = 'Smith';
+
 
 var javier = new Person('Javier', 1995, 'Developer');
 var Jose = new Person('Jose', 1994, 'Developer');
