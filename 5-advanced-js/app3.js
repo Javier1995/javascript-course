@@ -1,19 +1,19 @@
 var john = {
   name: 'john',
-  yearOfBirth:1990,
+  yearOfBirth: 1990,
   job: 'teacher'
 };
 
 //Function contructor
-var Person = function(name, yearOfBirth, job){
-    this.name = name;
-    this.yearOfBirth = yearOfBirth;
-    this.job = job
+var Person = function (name, yearOfBirth, job) {
+  this.name = name;
+  this.yearOfBirth = yearOfBirth;
+  this.job = job;
 };
 
 
-Person.prototype.calculateAge = function(){
-    console.log(2020 - this.yearOfBirth);
+Person.prototype.calculateAge = function () {
+  console.log(2020 - this.yearOfBirth);
 }
 
 Person.prototype.lastName = 'Smith';
