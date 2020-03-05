@@ -14,7 +14,7 @@ var Person = function (name, yearOfBirth, job) {
 
 Person.prototype.calculateAge = function () {
   console.log(2020 - this.yearOfBirth);
-}
+};
 
 Person.prototype.lastName = 'Smith';
 
